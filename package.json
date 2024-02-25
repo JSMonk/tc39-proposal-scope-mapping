@@ -2,9 +2,10 @@
   "name": "scope-mapping",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc --project tsconfig.json"
   },
   "author": "Holger Benl <holger@replay.io>",
   "license": "ISC",

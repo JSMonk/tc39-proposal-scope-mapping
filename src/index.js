@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.encodeOriginalScopes = exports.encodeGeneratedScopes = exports.decodeOriginalScopes = exports.decodeGeneratedScopes = exports.getOriginalFrames = void 0;
+var getOriginalFrames_1 = require("./getOriginalFrames");
+Object.defineProperty(exports, "getOriginalFrames", { enumerable: true, get: function () { return getOriginalFrames_1.getOriginalFrames; } });
+var decodeScopes_1 = require("./decodeScopes");
+Object.defineProperty(exports, "decodeGeneratedScopes", { enumerable: true, get: function () { return decodeScopes_1.decodeGeneratedScopes; } });
+Object.defineProperty(exports, "decodeOriginalScopes", { enumerable: true, get: function () { return decodeScopes_1.decodeOriginalScopes; } });
+var encodeScopes_1 = require("./encodeScopes");
+Object.defineProperty(exports, "encodeGeneratedScopes", { enumerable: true, get: function () { return encodeScopes_1.encodeGeneratedScopes; } });
+Object.defineProperty(exports, "encodeOriginalScopes", { enumerable: true, get: function () { return encodeScopes_1.encodeOriginalScopes; } });
